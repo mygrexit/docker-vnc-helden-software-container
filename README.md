@@ -50,7 +50,7 @@ Each Docker image is installed with the following components:
 
 ## Usage with docker-compose
 
-I prefer using docker-compose for my containers. I also use [**traefik**](https://github.com/traefik/traefik) which creates a reverse proxy and a basic authentication. Feel free to adjust it to your needs. 
+I prefer using docker-compose for my containers. I also use [**traefik**](https://github.com/traefik/traefik) which creates a reverse proxy and a basic authentication. Feel free to adjust it to your needs. Please note that I don't have any exposed ports in my example since it's proxied.
 
 ```
 version: '3.1'
