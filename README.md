@@ -3,7 +3,7 @@
 I modified the original repo to perform a specific task.
 I took most of the readme and rewrote it to fit my repo.
 
-For RPG **Das Schwarze Auge** or **DSA**, there is a software that helps in the creation and management of the heroes.
+For the RPG **Das Schwarze Auge** or **DSA**, there is a software that helps in the creation and management of the heroes.
 
 [**Helden-Software**](https://www.helden-software.de)
 
@@ -25,6 +25,11 @@ Each Docker image is installed with the following components:
   
 ![Docker VNC Desktop access via HTML page](.pics/vnc_container_view.png)
 
+## Status
+
+![Docker automated](https://img.shields.io/docker/automated/mygrexit/docker-vnc-helden-software-container)
+![Pulls](https://img.shields.io/docker/pulls/mygrexit/docker-vnc-helden-software-container)
+![Build Size](https://img.shields.io/docker/image-size/mygrexit/docker-vnc-helden-software-container/latest)
 
 ## Current provided OS & UI sessions:
 * `mygrexit/docker-vnc-helden-software-container`: `Ubuntu` with `Xfce4`, `JRE8` and `Helden-Software`
