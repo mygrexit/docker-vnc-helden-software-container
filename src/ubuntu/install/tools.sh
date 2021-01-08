@@ -4,7 +4,7 @@ set -e
 
 echo "Install some common tools for further installation"
 apt-get update 
-apt-get install -y vim wget net-tools locales bzip2 curl ca-certificates gnupg\
+apt-get install -y vim wget net-tools locales bzip2 curl ca-certificates nano gnupg\
     python-numpy #used for websockify/novnc
 apt-get clean -y
 
